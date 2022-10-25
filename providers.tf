@@ -5,7 +5,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket = "stack-state-gcs-data-pipeline86482176"
+    bucket = "stack-state-gcs-data-pipeline6875687657"
     prefix = "terraform/state"
   }
   required_providers {
